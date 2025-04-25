@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./image/Rectangle\ 18.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    width: 70%;
+    height: 392px;
+    border-radius: 15px;
+
+box-shadow: 0px 0px 35px 0px rgba(212, 20, 90, 0.25);
+background: rgb(255, 255, 255);
+}
+
+h1{
+    color: rgb(0, 0, 0);
+font-family: Roboto;
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 50px;
+}
+
+.box input{
+    box-sizing: border-box;
+border: 1px solid rgb(162, 162, 162);
+border-radius: 9px;
+
+background: rgb(255, 255, 255);
+width: 362px;
+height: 50px;
+}
+::placeholder{
+    padding: 20px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+textarea{
+    width: 749px;
+    height: 81px;
+    border-radius: 10px;
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  
+}
+
+button{
+    display: flex;
+   margin: 0 auto; 
+   margin-top: 30px;
+   border-radius: 9px;
+    align-items: center;
+    justify-content: center;
+background: linear-gradient(140.12deg, rgb(212, 20, 90) -20.965%,rgb(61, 91, 245) 102.951%);
+
+width: 169.49px;
+height: 42.06px;
+border: none;
+color: white;
+}
+
+
+@media (max-width:1064px) {
+    h1{
+        font-size: 24px;
+    }
+
+    .box{
+        flex-wrap: wrap;
+    }
+
+    textarea{
+        width: 362px;
+        height: 95px;
+    }
+
+    .container{
+        height: 450px;
+    }
+}
+
+@media (max-width:600px) {
+    .box input{
+        width: 300px;
+        height: 25px;
+    }
+    textarea{
+        width: 300px;
+        height: 150px;
+    }
+}
